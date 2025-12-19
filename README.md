@@ -8,7 +8,7 @@ This project implements an end-to-end pipeline for detecting and analyzing AI-ge
 
 ### Architecture
 ```
-Reddit Data Collection → BigQuery Storage → AI Detection Pipeline → Results Analysis
+Reddit Data Collection → BigQuery Storage → AI Detection Pipeline → Results & Analysis
          ↓                      ↓                    ↓                      ↓
    [Apache Airflow]      [image_metadata]    [CLIP + BLIP + SuSy]   [predictions]
 ```
