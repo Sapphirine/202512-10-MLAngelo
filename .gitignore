@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+
+# model testing data from reddit
+data/reddit_data
+
+# build stuff
+*.egg-info/
+__pycache__/
+*.pyc
+dist/
+build/
+
+# model training data
+src/artdetectors/data
+src/artdetectors/__pycache__
+
+# results from example images
+example_results
+
+# model
+src/artdetectors/models
